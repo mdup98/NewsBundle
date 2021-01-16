@@ -1,6 +1,8 @@
+let targetUrl = "http://localhost:3000/articles.json";
+
 let promiseGetArticleList = new Promise((resolve, reject) => {
 	try {
-		fetch("articles.json")
+		fetch(targetUrl)
 			.then((response) => response.json())
 			.then((json) => {
 				let currentArticles = json;
