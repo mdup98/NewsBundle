@@ -2,7 +2,6 @@ const express = require("express");
 const fetch = require("node-fetch");
 const cors = require("cors");
 const fs = require("fs");
-const helmet = require("helmet");
 
 const port = process.env.PORT || 5501;
 
@@ -34,5 +33,4 @@ app.get("/articles/update", (req, res) => {
 	//calling scrape.js - updateing articles.json
 	updateArticles();
 });
-app.use(helmet());
 app.listen(port, () => console.log(`Server listening on port ${port}`));
