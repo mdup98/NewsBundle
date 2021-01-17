@@ -32,7 +32,7 @@ app.get("/articles", (req, res) => {
 
 app.get("/articles/update", (req, res) => {
 	//calling scrape.js - updateing articles.json
-	let child = require("child_process").fork("scrape.js");
+	updateArticles();
 });
 app.use(helmet());
 app.listen(port, () => console.log(`Server listening on port ${port}`));
