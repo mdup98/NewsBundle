@@ -22,4 +22,12 @@ app.get("/articles", (req, res) => {
 	});
 });
 
+app.get("/update", (req, res) => {
+	//calling scrape.js - updateing articles.json
+	let child = require("child_process").fork("scrape.js");
+	child.on("exit", function () {
+		res.sendFile("/index.html", { root: __dirname });
+	});
+});
+
 app.listen(port, () => console.log(`Server listening on port ${port}`));

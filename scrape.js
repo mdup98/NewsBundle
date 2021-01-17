@@ -121,7 +121,6 @@ function getiDnesCZ() {
 				if (i < 5) {
 					const link = $(el).attr("href");
 					let nazev = $(el).children("h3").text();
-					console.log(nazev);
 					nazev = getRidOfCommas(nazev);
 					let clanok = {
 						idArticle: idArticle,
@@ -182,7 +181,6 @@ function getSeznamZpravy() {
 				if (i < 10) {
 					const link = $(el).attr("href");
 					let nazev = $(el).children("h3").text();
-					console.log(nazev);
 					nazev = getRidOfCommas(nazev);
 					let clanok = {
 						idArticle: idArticle,
@@ -211,7 +209,6 @@ function getSme() {
 				if (i < 10) {
 					const link = $(el).attr("href");
 					let nazev = $(el).children('span[class="tab-item-link"]').text();
-					console.log(nazev);
 					nazev = getRidOfCommas(nazev);
 					let clanok = {
 						idArticle: idArticle,
@@ -238,4 +235,4 @@ getAktualneCZ();
 //getiDnesCZ();
 setTimeout(function () {
 	storeData(obj);
-}, 10000);
+}, 7000);
