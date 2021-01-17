@@ -4,6 +4,12 @@ const cors = require("cors");
 const fs = require("fs");
 const port = process.env.PORT || 5501;
 
+//Call scrape.js every 4 hours
+function updateArticles() {
+	let child = require("child_process").fork("scrape.js");
+}
+setInterval(() => updateArticles(), 14400000);
+//-------------------------------
 const app = express();
 app.use(cors());
 app.use(express.static(__dirname));
