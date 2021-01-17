@@ -1,7 +1,13 @@
 //target request for json
-let targetUrl = "http://localhost:5501/articles.json";
+let targetUrl = "http://localhost:5501/articles";
+let targetUpdateUrl = "http://localhost:5501/articles/update";
+
 $(document).ready(function () {
-	//get new list from server and call new articles
+	//fetch url that rescrapes web news
+	function rescrapeWebsites() {
+		fetch(targetUpdateUrl);
+	}
+
 	function updateArticles() {
 		//Fetch json with articles /articles
 		let promiseGetArticleLists = new Promise((resolve, reject) => {
@@ -9,7 +15,6 @@ $(document).ready(function () {
 				fetch(targetUrl)
 					.then((response) => response.json())
 					.then((json) => {
-						console.log("Promise2");
 						let currentArticles = json;
 						resolve(currentArticles);
 					});
@@ -45,5 +50,9 @@ $(document).ready(function () {
 			createList();
 		}, 1000);
 	}
+	//on document load
+	updateArticles();
+	//on button click call scriptjs, then update frontend
 	$("#updateButton").click(updateArticles);
+	$("#scrapejs").click(rescrapeWebsites);
 });
