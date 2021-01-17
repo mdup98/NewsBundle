@@ -32,5 +32,6 @@ app.get("/articles", (req, res) => {
 app.get("/articles/update", (req, res) => {
 	//calling scrape.js - updateing articles.json
 	updateArticles();
+	res.end();
 });
 app.listen(port, () => console.log(`Server listening on port ${port}`));
