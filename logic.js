@@ -1,7 +1,6 @@
-const port = process.env.PORT || 5501;
 //target request for json
-let targetUrl = `https://stormy-dawn-77953.herokuapp.com/${port}`;
-let targetUpdateUrl = `https://stormy-dawn-77953.herokuapp.com/${port}`;
+let targetUrl = "https://stormy-dawn-77953.herokuapp.com/articles";
+let targetUpdateUrl = "https://stormy-dawn-77953.herokuapp.com/articles/update";
 
 $(document).ready(function () {
 	//fetch url that rescrapes web news
