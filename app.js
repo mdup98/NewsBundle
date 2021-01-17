@@ -2,6 +2,8 @@ const express = require("express");
 const fetch = require("node-fetch");
 const cors = require("cors");
 const fs = require("fs");
+const helmet = require("helmet");
+
 const port = process.env.PORT || 5501;
 
 //Call scrape.js every 4 hours
@@ -31,9 +33,6 @@ app.get("/articles", (req, res) => {
 app.get("/articles/update", (req, res) => {
 	//calling scrape.js - updateing articles.json
 	let child = require("child_process").fork("scrape.js");
-	child.on("exit", function () {
-		console.log("123");
-	});
 });
-
+app.use(helmet());
 app.listen(port, () => console.log(`Server listening on port ${port}`));

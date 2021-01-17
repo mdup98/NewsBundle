@@ -235,4 +235,4 @@ getAktualneCZ();
 //getiDnesCZ();
 setTimeout(function () {
 	storeData(obj);
-}, 7000);
+}, 10000);
