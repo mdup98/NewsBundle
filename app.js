@@ -5,10 +5,10 @@ const fs = require("fs");
 
 const port = process.env.PORT || 5501;
 
-//Call scrape.js every 4 hours
+/* //Call scrape.js every 4 hours
 function updateArticles() {
 	let child = require("child_process").fork("scrape.js");
-}
+} */
 setInterval(() => updateArticles(), 14400000);
 //-------------------------------
 const app = express();
@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 	res.sendFile("/index.html", { root: __dirname });
 });
 
-app.get("/articles", (req, res) => {
+/* app.get("/articles", (req, res) => {
 	res.setHeader("Access-Control-Allow-Origin", "*");
 	fs.readFile("articles.json", "utf8", (err, data) => {
 		if (err) {
@@ -32,5 +32,5 @@ app.get("/articles", (req, res) => {
 app.get("/articles/update", (req, res) => {
 	//calling scrape.js - updateing articles.json
 	updateArticles();
-});
+}); */
 app.listen(port, () => console.log(`Server listening on port ${port}`));
