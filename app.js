@@ -2,6 +2,7 @@ const express = require("express");
 const fetch = require("node-fetch");
 const cors = require("cors");
 const fs = require("fs");
+const { request } = require("http");
 
 const port = process.env.PORT || 5501;
 
@@ -34,9 +35,28 @@ app.get("/articles/update", (req, res) => {
 	updateArticles();
 	res.end();
 });
-
-app.get("/articles/language/:param1", function (req, res) {
-	0;
+app.get("/articles/language/:lang", (req, res) => {
+	let lang = req.params.lang;
+	fs.readFile("articles.json", "utf8", (err, data) => {
+		if (err) {
+			throw err;
+		}
+		let articleList = JSON.parse(data);
+		cutArticleList(articleList);
+	});
+	//iterate through articles and keep just those with right lang
+	function cutArticleList(data) {
+		data = data.articles;
+		for (let i in data) {
+			if (data[i].language === lang.toUpperCase()) {
+				continue;
+			} else {
+				delete data[i];
+				console.log(data[i]);
+			}
+		}
+		console.log(data);
+	}
 });
 
 app.listen(port, () => console.log(`Server listening on port ${port}`));
