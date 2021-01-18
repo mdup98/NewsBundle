@@ -42,20 +42,16 @@ app.get("/articles/language/:lang", (req, res) => {
 			throw err;
 		}
 		let articleList = JSON.parse(data);
+		articleList = articleList.articles;
 		cutArticleList(articleList);
 	});
+
 	//iterate through articles and keep just those with right lang
 	function cutArticleList(data) {
-		data = data.articles;
-		for (let i in data) {
-			if (data[i].language === lang.toUpperCase()) {
-				continue;
-			} else {
-				delete data[i];
-				console.log(data[i]);
-			}
-		}
-		console.log(data);
+		data = data.filter((entry) => {
+			return entry.language === lang.toUpperCase();
+		});
+		res.send(data);
 	}
 });
 
