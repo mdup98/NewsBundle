@@ -25,11 +25,6 @@ var day = dateObj.getUTCDate();
 var year = dateObj.getUTCFullYear();
 const newdate = day + "." + month + "." + year;
 
-//* Saving text *//
-function getRidOfCommas(text) {
-	return text.replace(/,/g, "");
-}
-
 //* NEWS SITES *//
 // NovinkyCZ nahodne linky
 function getNovinkyCZ() {
@@ -73,7 +68,6 @@ function getAktualneCZ() {
 				const idArticle = source + "topicOfTheDay" + i;
 				const link = $(el).children("a").eq(0).attr("href");
 				let nazev = $(el).children("a").eq(0).text().trim();
-				nazev = getRidOfCommas(nazev);
 				let clanok = {
 					idArticle: idArticle,
 					source: source,
@@ -94,7 +88,6 @@ function getAktualneCZ() {
 					.children('div[class="triple-box__title"]')
 					.text()
 					.trim();
-				nazev = getRidOfCommas(nazev);
 				let clanok = {
 					idArticle: idArticle,
 					source: source,
@@ -121,7 +114,6 @@ function getiDnesCZ() {
 				if (i < 5) {
 					const link = $(el).attr("href");
 					let nazev = $(el).children("h3").text();
-					nazev = getRidOfCommas(nazev);
 					let clanok = {
 						idArticle: idArticle,
 						source: source,
@@ -153,7 +145,6 @@ function getKosiceDnes() {
 					.children()
 					.text()
 					.replace(/,/g, "-");
-				nazev = getRidOfCommas(nazev);
 				//CSV writeStream.write(`${language}, ${source}, ${nazev}, ${link}, ${newdate} \n`)
 				let clanok = {
 					idArticle: idArticle,
@@ -181,7 +172,6 @@ function getSeznamZpravy() {
 				if (i < 10) {
 					const link = $(el).attr("href");
 					let nazev = $(el).children("h3").text();
-					nazev = getRidOfCommas(nazev);
 					let clanok = {
 						idArticle: idArticle,
 						source: source,
@@ -209,7 +199,6 @@ function getSme() {
 				if (i < 10) {
 					const link = $(el).attr("href");
 					let nazev = $(el).children('span[class="tab-item-link"]').text();
-					nazev = getRidOfCommas(nazev);
 					let clanok = {
 						idArticle: idArticle,
 						source: source,
