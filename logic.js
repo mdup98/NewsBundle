@@ -8,7 +8,7 @@ let targetUpdateUrl = "http://localhost:5501/articles/update"; */
 $(document).ready(function () {
 	//fetch url that rescrapes web news
 	function rescrapeWebsites() {
-		fetch(targetUpdateUrl).then((response) => alert(response));
+		fetch(targetUpdateUrl).then((response) => console.log(response));
 	}
 
 	function updateArticles(lang) {
