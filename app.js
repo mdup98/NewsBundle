@@ -16,33 +16,36 @@ const app = express();
 app.use(cors());
 app.use(express.static(__dirname));
 
+//HomePage
 app.get("/", (req, res) => {
 	res.sendFile("/index.html", { root: __dirname });
 });
 
+//List all articles from articles.json
 app.get("/articles", (req, res) => {
 	res.setHeader("Access-Control-Allow-Origin", "*");
 	fs.readFile("articles.json", "utf8", (err, data) => {
 		if (err) {
 			throw err;
 		}
-		res.send(JSON.parse(data));
+		res.send(JSON.parse(data).articles);
 	});
 });
 
+//Manually rescrape the articles
 app.get("/articles/update", (req, res) => {
-	//calling scrape.js - updateing articles.json
 	updateArticles();
 	res.end();
 });
+
+//Get articles by language
 app.get("/articles/language/:lang", (req, res) => {
 	let lang = req.params.lang;
 	fs.readFile("articles.json", "utf8", (err, data) => {
 		if (err) {
 			throw err;
 		}
-		let articleList = JSON.parse(data);
-		articleList = articleList.articles;
+		let articleList = JSON.parse(data).articles;
 		cutArticleList(articleList);
 	});
 
