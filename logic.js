@@ -1,9 +1,9 @@
 //target request for json
-let targetUrl = "https://stormy-dawn-77953.herokuapp.com/articles";
-let targetUpdateUrl = "https://stormy-dawn-77953.herokuapp.com/articles/update";
-let lang = "";
-/* let targetUrl = "http://localhost:5501/articles";
-let targetUpdateUrl = "http://localhost:5501/articles/update"; */
+/* let targetUrl = "https://stormy-dawn-77953.herokuapp.com/articles";
+let targetUpdateUrl = "https://stormy-dawn-77953.herokuapp.com/articles/update"; */
+
+let targetUrl = "http://localhost:5501/articles";
+let targetUpdateUrl = "http://localhost:5501/articles/update";
 
 $(document).ready(function () {
 	//fetch url that rescrapes web news
@@ -11,16 +11,17 @@ $(document).ready(function () {
 		fetch(targetUpdateUrl);
 	}
 
-	function updateArticles() {
+	function updateArticles(lang) {
 		//Fetch json with articles /articles
 		let promiseGetArticleLists = new Promise((resolve, reject) => {
 			try {
+				if (typeof lang == "undefined") {
+					lang = "";
+				}
 				fetch(targetUrl + lang)
 					.then((response) => response.json())
 					.then((json) => {
-						console.log(json);
 						let currentArticles = json;
-						console.log(currentArticles);
 						resolve(currentArticles);
 					});
 			} catch {
@@ -29,7 +30,7 @@ $(document).ready(function () {
 		});
 
 		function createList() {
-			promiseGetArticleLists.then(function fillTable(data) {
+			promiseGetArticleLists.then((data) => {
 				let articleList = data;
 				for (let i = 0; i < articleList.length; i++) {
 					$(".table-locator > tbody").append(
@@ -61,7 +62,7 @@ $(document).ready(function () {
 	$("#updateButton").click(updateArticles);
 	$("#scrapejs").click(rescrapeWebsites);
 	$(".dropDownLang").click(function () {
-		lang = "/language/" + $(this).text();
-		updateArticles();
+		let lang = "/language/" + $(this).text();
+		return updateArticles(lang);
 	});
 });
