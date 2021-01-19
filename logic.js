@@ -1,10 +1,9 @@
 //target request for json
-/* let targetUrl = "https://stormy-dawn-77953.herokuapp.com/articles";
-let targetUpdateUrl = "https://stormy-dawn-77953.herokuapp.com/articles/update"; */
+let targetUrl = "https://stormy-dawn-77953.herokuapp.com/articles";
+let targetUpdateUrl = "https://stormy-dawn-77953.herokuapp.com/articles/update";
 let lang = "";
-let targetUrl = "http://localhost:5501/articles";
-let targetUpdateUrl = "http://localhost:5501/articles/update";
-let targetUrlLanguage = "http://localhost:5501/articles/language/";
+/* let targetUrl = "http://localhost:5501/articles";
+let targetUpdateUrl = "http://localhost:5501/articles/update"; */
 
 $(document).ready(function () {
 	//fetch url that rescrapes web news
