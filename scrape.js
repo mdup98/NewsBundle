@@ -1,22 +1,9 @@
 let obj = {
 	articles: [],
 };
-const request = require("request");
+const request = require("request-promise");
 const cheerio = require("cheerio");
 const fs = require("fs");
-
-// JSON saving
-const storeData = (data) => {
-	let jsondata = JSON.stringify(data, null, 2);
-	fs.writeFile("articles.json", jsondata, "utf8", (err) => {
-		if (err) throw err;
-		console.log("The file has been saved!");
-	});
-};
-
-// CSV saving
-//const writeStream = fs.createWriteStream("clanky.csv");
-//writeStream.write(`Language,WebPage,Title,Link \n`);
 
 //Date section
 const dateObj = new Date();
@@ -188,40 +175,54 @@ function getSeznamZpravy() {
 	});
 }
 //SME SK najcitanejsie 24h
-function getSme() {
-	request("https://www.sme.sk/", (error, response, html) => {
-		if (!error && response.statusCode == 200) {
-			const $ = cheerio.load(html);
-			let source = "sme.sk";
-			let language = "SK";
-			$('a[data-deep-tags^="24-hour"]').each((i, el) => {
-				const idArticle = source + i;
-				if (i < 10) {
-					const link = $(el).attr("href");
-					let nazev = $(el).children('span[class="tab-item-link"]').text();
-					let clanok = {
-						idArticle: idArticle,
-						source: source,
-						language: language,
-						name: nazev,
-						link: link,
-						date: newdate,
-					};
-					obj.articles.push(clanok);
-					// CSV  writeStream.write(`${language}, ${source}, ${nazev}, ${link}, ${newdate} \n`)
-				}
-			});
-		}
+const getSMEarticles = async () => {
+	try {
+		console.log("wat starting");
+		await request("https://www.sme.sk/", (error, response, html) => {
+			if (!error && response.statusCode == 200) {
+				const $ = cheerio.load(html);
+				let source = "sme.sk";
+				let language = "SK";
+				$('a[data-deep-tags^="24-hour"]').each((i, el) => {
+					const idArticle = source + i;
+					if (i < 10) {
+						const link = $(el).attr("href");
+						let nazev = $(el).children('span[class="tab-item-link"]').text();
+						let clanok = {
+							idArticle: idArticle,
+							source: source,
+							language: language,
+							name: nazev,
+							link: link,
+							date: newdate,
+						};
+						console.log("obj pushing");
+						obj.articles.push(clanok);
+						// CSV  writeStream.write(`${language}, ${source}, ${nazev}, ${link}, ${newdate} \n`)
+					}
+				});
+			}
+			console.log("request ending");
+		});
+	} catch (e) {
+		console.log("error", e);
+	}
+};
+
+// JSON saving
+const storeData = async () => {
+	await getSMEarticles();
+	let jsondata = JSON.stringify(obj, null, 2);
+	fs.writeFile("articles.json", jsondata, "utf8", (err) => {
+		if (err) throw err;
+		console.log("The file has been saved!");
 	});
-}
+};
+storeData();
 
 //Spustanie
-getSeznamZpravy();
+/* getSeznamZpravy();
 getSme();
 getNovinkyCZ();
 getKosiceDnes();
-getAktualneCZ();
-//getiDnesCZ();
-setTimeout(function () {
-	storeData(obj);
-}, 10000);
+getAktualneCZ(); */

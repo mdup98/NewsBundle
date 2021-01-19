@@ -4,44 +4,20 @@
       "idArticle": "sme.sk0",
       "source": "sme.sk",
       "language": "SK",
-      "name": "Čo robiť ak som sa nestihol objednať na odber? (otázky a odpovede)",
-      "link": "https://domov.sme.sk/c/22576034/plosne-skriningove-testovanie-otazky-a-odpovede.html?ref=njct",
+      "name": "Holý sa opäť zatajuje. Buď porušil pravidlá, alebo Britov zavádzal",
+      "link": "https://index.sme.sk/c/22576649/holy-sa-opat-zatajuje-bud-porusil-pravidla-alebo-britov-zavadzal.html?ref=njct",
       "date": "19.1.2021"
     },
     {
       "idArticle": "sme.sk1",
       "source": "sme.sk",
       "language": "SK",
-      "name": "Holý sa opäť zatajuje. Buď porušil pravidlá alebo Britov zavádzal",
-      "link": "https://index.sme.sk/c/22576649/holy-sa-opat-zatajuje-bud-porusil-pravidla-alebo-britov-zavadzal.html?ref=njct",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "sme.sk2",
-      "source": "sme.sk",
-      "language": "SK",
-      "name": "Koronavírus na Slovensku: PCR testy odhalili 1 909 nakazených pribudlo 111 úmrtí (minúta po minúte)",
+      "name": "Koronavírus na Slovensku: PCR testy odhalili 1 909 nakazených, pribudlo 111 úmrtí (minúta po minúte)",
       "link": "https://domov.sme.sk/c/22575934/koronavirus-plosne-testovanie-covid-slovensko-minuta-po-minute.html?ref=njct",
       "date": "19.1.2021"
     },
     {
-      "idArticle": "sme.sk3",
-      "source": "sme.sk",
-      "language": "SK",
-      "name": "Matovič vyhral na celej čiare",
-      "link": "https://komentare.sme.sk/c/22575929/matovic-vyhral-na-celej-ciare.html?ref=njct",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "sme.sk4",
-      "source": "sme.sk",
-      "language": "SK",
-      "name": "Vlhová sa nevyhla chybám sama nebola spokojná. Vyhrala znovu Bassinová",
-      "link": "https://sportnet.sme.sk/spravy/online-petra-vlhova-obrovsky-slalom-2-kolo-kranjska-gora-dnes-nedela/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "sme.sk5",
+      "idArticle": "sme.sk2",
       "source": "sme.sk",
       "language": "SK",
       "name": "Experti nesúhlasia s Krajčího vyjadreniami o AstraZenece a posune očkovania",
@@ -49,299 +25,43 @@
       "date": "19.1.2021"
     },
     {
+      "idArticle": "sme.sk3",
+      "source": "sme.sk",
+      "language": "SK",
+      "name": "Polícia pátra po Ľubošovi Blahovi",
+      "link": "https://myhornanitra.sme.sk/c/22576930/policia-patra-po-lubosovi-blahovi.html?ref=njct",
+      "date": "19.1.2021"
+    },
+    {
+      "idArticle": "sme.sk4",
+      "source": "sme.sk",
+      "language": "SK",
+      "name": "Vlhová sa nevyhla chybám, sama nebola spokojná. Vyhrala znovu Bassinová",
+      "link": "https://sportnet.sme.sk/spravy/online-petra-vlhova-obrovsky-slalom-2-kolo-kranjska-gora-dnes-nedela/",
+      "date": "19.1.2021"
+    },
+    {
+      "idArticle": "sme.sk5",
+      "source": "sme.sk",
+      "language": "SK",
+      "name": "Premiér obhajuje testovanie aj dátami, ktoré neexistujú",
+      "link": "https://domov.sme.sk/c/22575638/matovic-obhajuje-plosne-testovanie-datami-ktore-neexistuju.html?ref=njct",
+      "date": "19.1.2021"
+    },
+    {
       "idArticle": "sme.sk6",
       "source": "sme.sk",
       "language": "SK",
-      "name": "Premiér obhajuje testovanie aj dátami ktoré neexistujú",
-      "link": "https://domov.sme.sk/c/22575638/matovic-obhajuje-plosne-testovanie-datami-ktore-neexistuju.html?ref=njct",
+      "name": "Frajeri jazdili autom po zamrznutej priehrade, prelomil sa ľad",
+      "link": "https://myorava.sme.sk/c/22576495/frajeri-jazdili-autom-po-zamrznutej-priehrade-prelomil-sa-lad.html?ref=njct",
       "date": "19.1.2021"
     },
     {
       "idArticle": "sme.sk7",
       "source": "sme.sk",
       "language": "SK",
-      "name": "Pri zrážke osobného auta s nákladným zomrel 19-ročný vodič",
-      "link": "https://presov.korzar.sme.sk/c/22576253/pri-zrazke-osobneho-auta-s-nakladnym-zomrel-vodic.html?ref=njct",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz0",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Miroslav Kalousek složil poslanecký mandát. Sklidil ovace vestoje",
-      "link": "https://www.novinky.cz/domaci/clanek/kalousek-se-vzda-mandatu-40348297",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz1",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Rektor UK Zima leží ve vážném stavu v nemocnici, má covid",
-      "link": "https://www.novinky.cz/koronavirus/clanek/rektor-uk-zima-ma-covid-40348308",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz2",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "ČSSD stále nemůže skousnout snížení daní. Tvrdí, že kvůli tomu České dráhy snižují mzdy",
-      "link": "https://www.novinky.cz/ekonomika/clanek/malacova-a-hamacek-tvrdi-ze-kvuli-snizeni-dani-ceske-drahy-skrtaji-v-mzdach-40348237",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz3",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Turisté stoupali na Sněžku půlmetrovými závějemi v teniskách a teplácích, málem umrzli",
-      "link": "https://www.novinky.cz/krimi/clanek/turiste-stoupali-na-snezku-pulmetrovymi-zavejemi-v-teniskach-a-teplacich-malem-umrzli-40348305",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz4",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Očima Saši Mitrofanova: Bezpečnost země nelze prodávat ďáblovi",
-      "link": "https://www.novinky.cz/komentare/clanek/ocima-sasi-mitrofanova-bezpecnost-zeme-nelze-prodavat-dablovi-40348295",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz5",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Letecké záběry: Na zasněžené japonské dálnici bouralo 130 aut",
-      "link": "https://www.novinky.cz/zahranicni/svet/clanek/letecke-zabery-na-zasnezene-japonske-dalnici-bouralo-130-aut-40348334",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz6",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Polemika s Babišem nese ovoce, chválí si karlovarský hejtman navýšení počtu vakcín",
-      "link": "https://www.novinky.cz/domaci/clanek/polemika-s-babisem-nese-ovoce-chvali-si-karlovarsky-hejtman-navyseni-poctu-vakcin-40348332",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz7",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Česko očkuje průměrně. Vakcínu dostalo 129 tisíc lidí, tvrdí Blatný",
-      "link": "https://www.novinky.cz/koronavirus/clanek/cesko-ockuje-prumerne-vakcinu-dostalo-129-tisic-lidi-tvrdi-blatny-40348329",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz8",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Dálnici D5 uzavřela nehoda kamionů, jeden převážel auta",
-      "link": "https://www.novinky.cz/krimi/clanek/dalnici-d5-uzavrela-nehoda-kamionu-jeden-prevazel-auta-40348338",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz9",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "V Brně zpětně zjistili 84 případů britské mutace. Není horší ",
-      "link": "https://www.novinky.cz/domaci/clanek/v-brne-zpetne-zjistili-84-pripadu-britske-mutace-neni-horsi-40348327",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz10",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Tisková konference k výskytu britské mutace koronaviru v Česku",
-      "link": "https://www.novinky.cz/domaci/clanek/tiskova-konference-k-vyskytu-britske-mutace-koronaviru-v-cesku-40348249",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz11",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Babiš: Pfizer zmenší dodávku vakcín do ČR nejvýše o 20 procent",
-      "link": "https://www.novinky.cz/domaci/clanek/babis-pfizer-zmensi-dodavku-vakcin-do-cr-nejvyse-o-20-procent-40348186",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz12",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Rezervační systém rozdal termíny, někteří senioři ale jeli na očkování zbytečně",
-      "link": "https://www.novinky.cz/domaci/clanek/rezervacni-system-rozdal-terminy-nekteri-seniori-ale-jeli-na-ockovani-zbytecne-40348181",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz13",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Fatálně selhal. Soudce poslal mladého řidiče za smrt spolujezdkyně do vězení",
-      "link": "https://www.novinky.cz/krimi/clanek/fatalne-selhal-soudce-poslal-mladeho-ridice-za-smrt-spolujezdkyne-do-vezeni-40348166",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz14",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Z kamionu na Chrudimsku odlétl led. Zranil řidičku v osobním autě",
-      "link": "https://www.novinky.cz/krimi/clanek/z-kamionu-na-chrudimsku-odletl-led-zranil-ridicku-v-osobnim-aute-40348161",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz15",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Osvobozující rozsudek v kauze e-shopu s konopím soud zrušil",
-      "link": "https://www.novinky.cz/krimi/clanek/osvobozujici-rozsudek-v-kauze-e-shopu-s-konopim-soud-zrusil-40348151",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz16",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Drama v čínském dole: Zavalení horníci jsou po týdnu stále naživu",
-      "link": "https://www.novinky.cz/zahranicni/svet/clanek/drama-v-cinskem-dole-zavaleni-hornici-jsou-po-tydnu-stale-nazivu-40348156",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz17",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Navalnyj bude 30 dnů ve vazbě, rozhodl soud v procesu na policejní stanici",
-      "link": "https://www.novinky.cz/zahranicni/evropa/clanek/v-rusku-zacal-proces-s-navalnym-primo-na-policejni-stanici-40348154",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz18",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Svět je na prahu morálního selhání, distribuce vakcín není fér, kritizuje WHO",
-      "link": "https://www.novinky.cz/koronavirus/clanek/svet-je-na-prahu-moralniho-selhani-distribuce-vakcin-neni-fer-kritizuje-who-40348146",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "novinky.cz19",
-      "source": "novinky.cz",
-      "language": "CZ",
-      "name": "Čínský řidič odolal útočníkovi s kladívkem a dokázal zastavit autobus plný lidí",
-      "link": "https://www.novinky.cz/koktejl/clanek/cinsky-ridic-odolal-utocnikovi-s-kladivkem-a-dokazal-zastavit-autobus-plny-lidi-40348310",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "aktualne.cztopicOfTheDay0",
-      "source": "aktualne.cz",
-      "language": "CZ",
-      "name": "Britská mutace je v Česku šíří se výrazně rychleji a může mít vliv na další opatření",
-      "link": "https://zpravy.aktualne.cz/domaci/britska-mutace/r~865df528599e11eb80e60cc47ab5f122/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "aktualne.cztopicOfTheDay1",
-      "source": "aktualne.cz",
-      "language": "CZ",
-      "name": "Dánští premianti a zaostávající Česko. Porovnejte si jak Evropa očkuje proti covidu",
-      "link": "https://zpravy.aktualne.cz/zahranici/mapa-jak-zeme-v-evropske-unii-ockuji-proti-koronaviru/r~7300534454b311eba7deac1f6b220ee8/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "aktualne.cztripleBox0",
-      "source": "aktualne.cz",
-      "language": "CZ",
-      "name": "Šéf klubu TOP 09 Kalousek oznámil odchod ze sněmovny. Končí po 22 letech",
-      "link": "https://zpravy.aktualne.cz/domaci/sef-klubu-top-09-kalousek-oznamil-odchod-ze-snemovny/r~755286a65a5a11eb8972ac1f6b220ee8/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "aktualne.cztripleBox1",
-      "source": "aktualne.cz",
-      "language": "CZ",
-      "name": "Obrovský tajný palác pro Putina. Navalnyj zveřejnil videozáběry přepychové rezidence",
-      "link": "https://zpravy.aktualne.cz/zahranici/obrovsky-tajny-palac-pro-putina-navalnyj-zverejnil-videozabe/r~28e1871a5a6c11eb8b230cc47ab5f122/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "aktualne.cztripleBox2",
-      "source": "aktualne.cz",
-      "language": "CZ",
-      "name": "Národní galerie postaví depozitář v Jinonicích. Bude tam smět i veřejnost",
-      "link": "https://magazin.aktualne.cz/kultura/umeni/narodni-galerie-postavi-depozitar-jinonice-jika-cz/r~20135baa5a6611eb9c800cc47ab5f122/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "kosicednes.sk0",
-      "source": "kosicednes.sk",
-      "language": "SK",
-      "name": "Ján Mazák: Bezúhonní sudcovia mlčali- aj keď vedeli o korumpovaní- úplatkoch a iných nekalých praktikách",
-      "link": "http://kosicednes.sk/rozhovory/jan-mazak-bezuhonni-sudcovia-mlcali-aj-ked-vedeli-o-korumpovani-uplatkoch-inych-nekalych-praktikach/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "kosicednes.sk1",
-      "source": "kosicednes.sk",
-      "language": "SK",
-      "name": "ŠÚKL eviduje 67 hlásení podozrení na nežiaduce účinky po očkovaní",
-      "link": "http://kosicednes.sk/udalosti/sukl-eviduje-67-hlaseni-podozreni-na-neziaduce-ucinky-po-ockovani/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "kosicednes.sk2",
-      "source": "kosicednes.sk",
-      "language": "SK",
-      "name": "Na košickej železničnej stanici zahynul muž",
-      "link": "http://kosicednes.sk/udalosti/na-kosickej-zeleznicnej-stanici-zahynul-muz/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "kosicednes.sk3",
-      "source": "kosicednes.sk",
-      "language": "SK",
-      "name": "Dominika Cibulková prijala výzvu ministerstva zdravotníctva a pôjde pomôcť do nemocnice",
-      "link": "http://kosicednes.sk/udalosti/dominika-cibulkova-prijala-vyzvu-ministerstva-zdravotnictva-pojde-pomoct-do-nemocnice/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "kosicednes.sk4",
-      "source": "kosicednes.sk",
-      "language": "SK",
-      "name": "Bez testu bude po 27. januári možný nákup či cesta do zdravotníckeho zariadenia",
-      "link": "http://kosicednes.sk/udalosti/bez-testu-bude-po-27-januari-mozny-nakup-ci-cesta-do-zdravotnickeho-zariadenia/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "kosicednes.sk5",
-      "source": "kosicednes.sk",
-      "language": "SK",
-      "name": "Prvým dieťatkom v Košiciach je dievčatko Suela",
-      "link": "http://kosicednes.sk/udalosti/prvym-dietatkom-v-kosiciach-je-dievcatko-suela/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "kosicednes.sk6",
-      "source": "kosicednes.sk",
-      "language": "SK",
-      "name": "Pri dopravnej nehode na východe Slovenska vyhasol ľudský život",
-      "link": "http://kosicednes.sk/udalosti/pri-dopravnej-nehode-na-vychode-slovenska-vyhasol-ludsky-zivot/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "kosicednes.sk7",
-      "source": "kosicednes.sk",
-      "language": "SK",
-      "name": "Mladíka našli ležať pri kolobežke- oživiť sa ho už nepodarilo",
-      "link": "http://kosicednes.sk/udalosti/mladika-nasli-lezat-pri-kolobezke-ozivit-sa-ho-uz-nepodarilo/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "kosicednes.sk8",
-      "source": "kosicednes.sk",
-      "language": "SK",
-      "name": "Na dodržiavanie opatrení bude od stredy v teréne dohliadať viac policajtov",
-      "link": "http://kosicednes.sk/udalosti/na-dodrziavanie-opatreni-bude-od-stredy-v-terene-dohliadat-viac-policajtov/",
-      "date": "19.1.2021"
-    },
-    {
-      "idArticle": "kosicednes.sk9",
-      "source": "kosicednes.sk",
-      "language": "SK",
-      "name": "Sociálna poisťovňa začala posielať dôchodcom zvýšené dôchodky",
-      "link": "http://kosicednes.sk/udalosti/socialna-poistovna-zacala-posielat-dochodcom-zvysene-dochodky/",
+      "name": "Čo robiť, ak som sa nestihol objednať na odber? (otázky a odpovede)",
+      "link": "https://domov.sme.sk/c/22576034/plosne-skriningove-testovanie-otazky-a-odpovede.html?ref=njct",
       "date": "19.1.2021"
     }
   ]
